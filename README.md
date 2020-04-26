@@ -3,7 +3,7 @@
 
 
 The ArduinoCore for the SAMD21 does not support Isochronous USB datatransfer.
-This gitHub provides the code to implement support for Isochronous USB IN transactions at the max of 1023bytes per transfer (ie. streaming data from controller TO laptop). The code implements a speed of around 1MB/S or 10Mb/s. (10,000 x (1023+51)bytes per 10s)
+This gitHub provides the code to implement support for Isochronous USB IN transactions at the max of 1023bytes per transfer (ie. streaming data from controller TO laptop). The code implements a speed of around 1MB/S or 10Mb/s. (10,000 x (1023+51)bytes per 10s from Wireshark)
 The code provides a library that adds the Isochronous port to Windows keeping the ability to use Serial print accross the common port.
 
 What you find:
