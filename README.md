@@ -13,13 +13,19 @@ What you find:
 
 References for reading:
 On USB protocol:
-   http://www.usbmadesimple.co.uk/
+
+				http://www.usbmadesimple.co.uk/
 On Arduino's PluggableUSB framework: 
-   https://github.com/arduino/Arduino/wiki/PluggableUSB-and-PluggableHID-howto
+
+				https://github.com/arduino/Arduino/wiki/PluggableUSB-and-PluggableHID-howto
 On WinUSB api for windows receiving end:
-   https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/windows-desktop-app-for-a-usb-device
-   https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/how-to-write-a-windows-desktop-app-that-communicates-with-a-usb-device
-   https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/getting-set-up-to-use-windows-devices-usb
+
+				https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/windows-desktop-app-for-a-usb-device
+   
+				https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/how-to-write-a-windows-desktop-app-that-communicates-with-a-usb-device
+   
+				https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/getting-set-up-to-use-windows-devices-usb
+   
 
 Hope it can inspire you,
 
