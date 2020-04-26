@@ -1,0 +1,6 @@
+﻿  Building 'USB Application1' with toolset 'WindowsApplicationForDrivers10.0' and the 'Universal' target platform.
+  device.cpp
+  main.cpp
+  Generating Code...
+  USB Application1.vcxproj -> C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\x64\Debug\USBApplication1.exe
+  Driver is a Universal Driver.

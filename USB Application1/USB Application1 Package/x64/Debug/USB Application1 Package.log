@@ -1,0 +1,17 @@
+﻿  Building 'USB Application1 Package' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\MyDriver.inf
+  Stamping [Version] section with DriverVer=04/26/2020,3.44.37.427
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\Gebruiker\source\repos\USB Application1\x64\Debug\USB Application1 Package\mydriver.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Gebruiker\source\repos\USB Application1\x64\Debug\USB Application1 Package\mydriver.cat
+  
