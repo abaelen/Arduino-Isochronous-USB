@@ -64,7 +64,7 @@ This test would therefore indicate it is certainly worthwhile to consider Isochr
 What I did notice during my testing was that Windows will initialize an Isochronous datatransfer on an 8ms interval not faster.
 Doing the math, one could conclude it is not faster than a normal Bulk transfer (which transmits 52bytes on 0.2ms). However the overhead that the Bulk transfer imposes on the processor seems to completely offset this as shown by the tests above.
 
-This implies transmitting 1023bytes every 8ms, eg. 1x1023bytes/8ms or 2x1023/12ms or 3x1023/14ms, ....
+Using Isochronous datatransfer, on the other hand, implies transmitting 1023bytes every 8ms, eg. 1x1023bytes/8ms or 2x1023/12ms or 3x1023/14ms, ....
 
 
 
