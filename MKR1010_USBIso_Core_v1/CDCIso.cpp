@@ -54,9 +54,10 @@ void CDCIso_::enableInterrupt() {
 
 void CDCIso_::handleEndpoint(int ep) {
 	if (ep==epEPNum[1]) {
-		lenwritebuffer=sizeof(writebuffer);
-		write(writebuffer,1023);
-	}	
+        lenwritebuffer=sizeof(writebuffer);
+        write(writebuffer,1023);
+        Continue=1;        
+	}
 }
 
 size_t CDCIso_::write(const uint8_t *buffer, size_t size)
@@ -135,6 +136,19 @@ uint32_t CDCIso_::send(uint32_t ep, const void *data, uint32_t len)
 		data = (char *)data + length;
 
 	}
-
+  Continue=1;
 	return written;
+}
+
+void CDCIso_::BinConcat(uint8_t* bfr, uint32_t start, uint32_t length, uint64_t* content)
+{
+ 
+    for (uint32_t l=start;l>start-length;l--)
+    {
+        
+        uint32_t i = l / 8;
+        uint32_t pos = l % 8;
+   
+        bfr[i] = bfr[i] | ((uint8_t)((uint64_t)0x01 & (*content>>(l-1-start+length))) << pos);
+    }
 }

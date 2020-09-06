@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_osc__v5_1_1_program" kind="class" prot="public">
+    <compoundname>Osc_v5::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_osc__v5_1_1_program_1a86c56e4197bad807c4d54ab4ac3bffd6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Osc_v5.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>The main entry point for the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Program.cs" line="17" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Program.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Program.cs" line="11" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Program.cs" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_osc__v5_1_1_program_1a86c56e4197bad807c4d54ab4ac3bffd6" prot="private" virt="non-virtual"><scope>Osc_v5::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

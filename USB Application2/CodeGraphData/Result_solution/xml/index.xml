@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_osc__v5_1_1_form1" kind="class"><name>Osc_v5::Form1</name>
+    <member refid="class_osc__v5_1_1_form1_1a1a7e118349f62d99d326d4d36522b93e" kind="variable"><name>Lbl_V_Axis</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ac3704727472b1c92efb713174e813035" kind="variable"><name>Lbl_T_Axis</name></member>
+    <member refid="class_osc__v5_1_1_form1_1aca65c330a63548520a40b015ce84077e" kind="variable"><name>V_axis</name></member>
+    <member refid="class_osc__v5_1_1_form1_1aec4b439b6cf86ddcdf64e9aeddccee51" kind="variable"><name>T_axis</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ae9e8f4564d5030b07d4f9bf3b5624e5f" kind="variable"><name>zeroVoltPoint</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a85703e186c10ed9e6214a50cef7e3fb2" kind="variable"><name>VoltDiv</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a9e1d0c2caee234800aa507342b5e37be" kind="variable"><name>TimeDiv</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ab7c8472119e245e7239098ed3520cb3e" kind="variable"><name>components</name></member>
+    <member refid="class_osc__v5_1_1_form1_1af6ef93dd0d72061509b1b5bd0c084cd0" kind="variable"><name>button2</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a3d1522e503953290cf4716da2f8241c0" kind="variable"><name>trackBar1</name></member>
+    <member refid="class_osc__v5_1_1_form1_1af008f90c2dba5006ae15100cb6a91d87" kind="variable"><name>panel1</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a2ad7595e2b52664b2fc21db03f21d0e5" kind="variable"><name>panel2</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a487fc87b88b52efbbaaf6de371693607" kind="variable"><name>button6</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a55eb02f3e3692c15cf030e7c374b9a20" kind="variable"><name>button7</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a25f2364ce3a6934699b2e8c30c75f063" kind="variable"><name>button5</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ac51c3fa39dd68de897074bff0048d7a9" kind="variable"><name>comboBox1</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ad6ba1fe19623dc04b0f17c4cd8bf1546" kind="variable"><name>textBox1</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a484f63d8569fc81856bb26428974a8e3" kind="variable"><name>comboBox2</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" kind="function"><name>Form1</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a6a3705d1f330ce313f418530c399f2be" kind="function"><name>Form1_Move</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a17c8bec3a176898f0c7bba55e6f8127c" kind="function"><name>button6_Click</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ac2783e6bfc8fc0cceb3a7292f6eb886c" kind="function"><name>Form1_Shown</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ad10326057259ff0d8078cec46b5e2b5c" kind="function"><name>MidLbl_Click</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a4ee6d2324d9b201e2d147f7d5ee148f5" kind="function"><name>button7_Click</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a99fb4463849ba0fb1425866c58d6df1f" kind="function"><name>button5_Click</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a26f0413154dba34b0b200ce15e77b9e6" kind="function"><name>textBox1_KeyPress</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a8e40f8bdaa801483741908ef81959e9f" kind="function"><name>textBox1_PreviewKeyDown</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a54aa39612f8c6d11fe69372a01e682d9" kind="function"><name>comboBox1_SelectedValueChanged</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a78594267f06879c34c5adb2f82d755f2" kind="function"><name>comboBox2_SelectedValueChanged</name></member>
+    <member refid="class_osc__v5_1_1_form1_1a4375d6066167d28b10ee6b769c024fff" kind="function"><name>U_InitializeComponent</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ae5efe21b0114f8ffd4898973c63f70da" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_osc__v5_1_1_form1_1ae5055679d509f1305f0f36ba4e5237f6" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_native_methods" kind="class"><name>NativeMethods</name>
+    <member refid="class_native_methods_1a6f4d68d182d3efd06e88611a5b989c19" kind="function"><name>OGL_Window_Init</name></member>
+    <member refid="class_native_methods_1a213fce059d1ba0b6aa8f891dcd6cb1e9" kind="function"><name>OGL_Window_Dispose</name></member>
+    <member refid="class_native_methods_1a379c61e46a286f47160f81c6202591c1" kind="function"><name>OGL_Window_SetPos</name></member>
+  </compound>
+  <compound refid="class_osc__v5_1_1_form1_1_1_number" kind="class"><name>Osc_v5::Form1::Number</name>
+    <member refid="class_osc__v5_1_1_form1_1_1_number_1a1541335c1006636f00f8e10ca848be63" kind="variable"><name>fNumber</name></member>
+    <member refid="class_osc__v5_1_1_form1_1_1_number_1a04c4a3b4d640be5c4818c38bad7683e9" kind="function"><name>gStr</name></member>
+    <member refid="class_osc__v5_1_1_form1_1_1_number_1ab42da13a690f5747ff8426779b9ee87c" kind="function"><name>Number</name></member>
+    <member refid="class_osc__v5_1_1_form1_1_1_number_1a5125f01138c551559983b528a5406097" kind="function"><name>gFlt</name></member>
+  </compound>
+  <compound refid="class_osc__v5_1_1_program" kind="class"><name>Osc_v5::Program</name>
+    <member refid="class_osc__v5_1_1_program_1a86c56e4197bad807c4d54ab4ac3bffd6" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_reading" kind="class"><name>Reading</name>
+    <member refid="class_reading_1a3921aac46a6fa03f8535fa3fdf9eac55" kind="variable"><name>ADC_Reading</name></member>
+    <member refid="class_reading_1a836d2c407bc021b120bd834b0435debb" kind="variable"><name>ADC_Tick</name></member>
+    <member refid="class_reading_1af08a4b8dea785ef68987cc952d4837fb" kind="function"><name>gVolt</name></member>
+    <member refid="class_reading_1ac7fb682f36d3afa17a0937fb550caaf8" kind="function"><name>gTime</name></member>
+    <member refid="class_reading_1a048c88af32fe0818bcbbdbc48c9fc2a4" kind="function"><name>gVolt_UpperBound</name></member>
+    <member refid="class_reading_1aa316c1b93daf3d39e160cabde0c72be7" kind="function"><name>gVolt_LowerBound</name></member>
+    <member refid="class_reading_1a80ad5fe558bf7711ea0ca8f37ce4428f" kind="function"><name>gfVScreen</name></member>
+    <member refid="class_reading_1a0bfb12b1770e4434f44ca843e29cc166" kind="function"><name>gfTScreen</name></member>
+    <member refid="class_reading_1a8e10d54a1c58882b9ed49b267ac0ae75" kind="function"><name>gTick</name></member>
+    <member refid="class_reading_1a9b33ebbd4009751adfe30d4da03286e1" kind="function"><name>gfTScreenFromTick</name></member>
+    <member refid="class_reading_1af08a4b8dea785ef68987cc952d4837fb" kind="function"><name>gVolt</name></member>
+    <member refid="class_reading_1ac7fb682f36d3afa17a0937fb550caaf8" kind="function"><name>gTime</name></member>
+    <member refid="class_reading_1a048c88af32fe0818bcbbdbc48c9fc2a4" kind="function"><name>gVolt_UpperBound</name></member>
+    <member refid="class_reading_1aa316c1b93daf3d39e160cabde0c72be7" kind="function"><name>gVolt_LowerBound</name></member>
+    <member refid="class_reading_1a80ad5fe558bf7711ea0ca8f37ce4428f" kind="function"><name>gfVScreen</name></member>
+    <member refid="class_reading_1a0bfb12b1770e4434f44ca843e29cc166" kind="function"><name>gfTScreen</name></member>
+    <member refid="class_reading_1a8e10d54a1c58882b9ed49b267ac0ae75" kind="function"><name>gTick</name></member>
+    <member refid="class_reading_1a9b33ebbd4009751adfe30d4da03286e1" kind="function"><name>gfTScreenFromTick</name></member>
+  </compound>
+  <compound refid="class_osc__v5_1_1_properties_1_1_resources" kind="class"><name>Osc_v5::Properties::Resources</name>
+    <member refid="class_osc__v5_1_1_properties_1_1_resources_1afb5ad6ac205f0ca048dff77164b25301" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_osc__v5_1_1_properties_1_1_resources_1a2d2d03c973288a37c0aedd1c2e5be191" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_osc__v5_1_1_properties_1_1_resources_1afd6df9055e73bd18fefccfaf8e539dd6" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_osc__v5_1_1_properties_1_1_resources_1abf4b5b331eda6ba958e8f24a6a2994d7" kind="property"><name>Culture</name></member>
+    <member refid="class_osc__v5_1_1_properties_1_1_resources_1a0fe3daf35507614d1602562c5ffcc2db" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_osc__v5_1_1_properties_1_1_settings" kind="class"><name>Osc_v5::Properties::Settings</name>
+    <member refid="class_osc__v5_1_1_properties_1_1_settings_1a6ed3a88e6dc0e1e7f87ab47a250499f9" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_osc__v5_1_1_properties_1_1_settings_1ae9a13b4a11fe0e4bc16a06e10a9ea23e" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="namespaceglm" kind="namespace"><name>glm</name>
+  </compound>
+  <compound refid="namespace_osc__v5" kind="namespace"><name>Osc_v5</name>
+  </compound>
+  <compound refid="namespace_osc__v5_1_1_properties" kind="namespace"><name>Osc_v5::Properties</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_dll___osc__v6_2dllmain_8cpp" kind="file"><name>dllmain.cpp</name>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a80de27bd7dc4e2b2ad3d5895b97a70f0" kind="variable"><name>window</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1af9a8a0a276ed928ba85095f1a1ecfff1" kind="variable"><name>Win_W</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a3626c00e577d979841ffca19eb4b7476" kind="variable"><name>Win_H</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1af3c33e7691a898c2aae4a7c4c267c59f" kind="variable"><name>g_vertex_buffer_raster</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1aad89e9c12e6822120a36ae6da1cace58" kind="variable"><name>g_color_buffer_raster</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1adbcb14d43bb68b221eb6b3550af3e1c8" kind="variable"><name>g_vertex_buffer_data</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1ad0ee3b2608061ded6d9c8ef017739cd8" kind="variable"><name>g_color_buffer_data</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a77d7e3a29e8adb3c0497533540f5a249" kind="variable"><name>g_indices</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a0c4ca28359bdb0e77781896263a84d91" kind="variable"><name>ADC_res</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a6d40728e3ec1b522284c9ea5b96a1000" kind="variable"><name>ADC_Vref</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a7589167ba925a6e017936b9319e8e38d" kind="variable"><name>zeroVolt</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a19cff5348c7f3d48e310f4f32992b271" kind="variable"><name>VoltDiv</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a26ad6bbc20e178149934be77ff1d9df8" kind="variable"><name>TimeDiv</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a288f2c9101675a37d31e7923b96fa219" kind="variable"><name>TScale</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a63bbdae8e398634405a195e653fca809" kind="variable"><name>ADC_freq</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1aa2ad21b8b054298a03717cb5d942fb71" kind="variable"><name>VScale</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1adc4e7666de367b61f6a4f71dacc7c7ac" kind="variable"><name>RB_Size</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a9ba341fa2af275a98ce05aefb2c2243d" kind="variable"><name>RB_U</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a4ea2f7b9c7cca5742e8fe7f30969090f" kind="variable"><name>RB_L</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a3f86114f49d94974beadd827f3c90508" kind="variable"><name>NumberOfSamples</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a29acf517f0d822741a087c85ebda8539" kind="variable"><name>BD_U</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1ac5ec62a20e69b0412392a6284af335d1" kind="variable"><name>BD_L</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1aaec3cd97712876a5e9ff70559b1fca26" kind="variable"><name>counter</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a38a1460a3154c3bfa2c264ef4fea1a75" kind="variable"><name>Samples</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a09beb5645e8dd42516934210e467e7c0" kind="variable"><name>ThreadNr</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a2769148a4dc602dbd7aeb822170c9946" kind="variable"><name>dfx</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a84ba2f914bdbb843dfebc5dcc3a63b07" kind="variable"><name>Bound</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a5c0ca47207a7c120b12a369d42c9f5a5" kind="variable"><name>Sample</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1ab3f01f16466243f03f540f0b5e9c0248" kind="variable"><name>NumberOfPixels</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a26e64fb39b69bcd9d1274d279f1561b9" kind="function"><name>DllMain</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1afa9c9b710bc853b5b9194a466868afae" kind="function"><name>fx</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a29b27df4a595c6fe38c223d11650c5b0" kind="function"><name>fy</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a9ca433d0eefd2a420b5b7ee3ab5865ce" kind="function"><name>px</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a53a9fef0fddff40f0b54dcfd36422d37" kind="function"><name>py</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a77b1f8534245162af84c06a71c8fa36a" kind="function"><name>ux</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a0c13fb4398047b332bd53c9b1f76da0d" kind="function"><name>uy</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a57ee20a7b50b2aec62a1771cfba3f29e" kind="function"><name>bx</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a77ba59770a943593aabc898c6b118c6d" kind="function"><name>DrawRasterLinesX</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a1b7c1ac3293369333ea7bf2805c30fb1" kind="function"><name>DrawRasterLinesY</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a9fba0ac4f8841403c56bef564cc9df4b" kind="function"><name>DrawStripesX</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a3a5651d6be66467978f934e0fb1d2bc6" kind="function"><name>DrawStripesY</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a1e68d447e46efecf71e966b5454d566b" kind="function"><name>GenerateRaster</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1abc326d211e7f0db50030aa10da34f7c6" kind="function"><name>breaktest</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1afa5a695eddcf14419f05550db3ac39a9" kind="function"><name>FirstPassCollectData</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a1cae8212be4054f6d29f62e4aa9458a9" kind="function"><name>FirstPassTransformData</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a7eadb31fe9951b8255856efe7d6091b7" kind="function"><name>ColorData</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1ae75f58903a5b689b7e5114ad58954854" kind="function"><name>r</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a6a5949204a3c4c0b2ab7d13f337f0480" kind="function"><name>Im</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a22345f110c99f6375191103bab9db58e" kind="function"><name>ContCollectData</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a388d1bc64ce2ecab96c35c31579417de" kind="function"><name>getUSBdata</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1ae6bd3b91726f7efc0f86b82f39c0c0db" kind="function"><name>ContCollecData</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a67469273613447f107e23f07407b9e30" kind="function"><name>ContTransformData</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1a1074301b7f6328da78d6d9db41fb141e" kind="function"><name>__declspec</name></member>
+    <member refid="_dll___osc__v6_2dllmain_8cpp_1aabecc373cfd2034ba704891246947291" kind="function"><name>glfwSetWindowPos</name></member>
+  </compound>
+  <compound refid="_dll___osc__v7_2dllmain_8cpp" kind="file"><name>dllmain.cpp</name>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a80de27bd7dc4e2b2ad3d5895b97a70f0" kind="variable"><name>window</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1af9a8a0a276ed928ba85095f1a1ecfff1" kind="variable"><name>Win_W</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a3626c00e577d979841ffca19eb4b7476" kind="variable"><name>Win_H</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1af3c33e7691a898c2aae4a7c4c267c59f" kind="variable"><name>g_vertex_buffer_raster</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1aad89e9c12e6822120a36ae6da1cace58" kind="variable"><name>g_color_buffer_raster</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1adbcb14d43bb68b221eb6b3550af3e1c8" kind="variable"><name>g_vertex_buffer_data</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1ad0ee3b2608061ded6d9c8ef017739cd8" kind="variable"><name>g_color_buffer_data</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a77d7e3a29e8adb3c0497533540f5a249" kind="variable"><name>g_indices</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a0c4ca28359bdb0e77781896263a84d91" kind="variable"><name>ADC_res</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a6d40728e3ec1b522284c9ea5b96a1000" kind="variable"><name>ADC_Vref</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a7589167ba925a6e017936b9319e8e38d" kind="variable"><name>zeroVolt</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a19cff5348c7f3d48e310f4f32992b271" kind="variable"><name>VoltDiv</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a26ad6bbc20e178149934be77ff1d9df8" kind="variable"><name>TimeDiv</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a288f2c9101675a37d31e7923b96fa219" kind="variable"><name>TScale</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a63bbdae8e398634405a195e653fca809" kind="variable"><name>ADC_freq</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1aa2ad21b8b054298a03717cb5d942fb71" kind="variable"><name>VScale</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1adc4e7666de367b61f6a4f71dacc7c7ac" kind="variable"><name>RB_Size</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a9ba341fa2af275a98ce05aefb2c2243d" kind="variable"><name>RB_U</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a4ea2f7b9c7cca5742e8fe7f30969090f" kind="variable"><name>RB_L</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a3f86114f49d94974beadd827f3c90508" kind="variable"><name>NumberOfSamples</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a29acf517f0d822741a087c85ebda8539" kind="variable"><name>BD_U</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1ac5ec62a20e69b0412392a6284af335d1" kind="variable"><name>BD_L</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1aaec3cd97712876a5e9ff70559b1fca26" kind="variable"><name>counter</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a38a1460a3154c3bfa2c264ef4fea1a75" kind="variable"><name>Samples</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a2769148a4dc602dbd7aeb822170c9946" kind="variable"><name>dfx</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a84ba2f914bdbb843dfebc5dcc3a63b07" kind="variable"><name>Bound</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a5c0ca47207a7c120b12a369d42c9f5a5" kind="variable"><name>Sample</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1ab3f01f16466243f03f540f0b5e9c0248" kind="variable"><name>NumberOfPixels</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a26e64fb39b69bcd9d1274d279f1561b9" kind="function"><name>DllMain</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1afa9c9b710bc853b5b9194a466868afae" kind="function"><name>fx</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a29b27df4a595c6fe38c223d11650c5b0" kind="function"><name>fy</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a9ca433d0eefd2a420b5b7ee3ab5865ce" kind="function"><name>px</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a53a9fef0fddff40f0b54dcfd36422d37" kind="function"><name>py</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a77b1f8534245162af84c06a71c8fa36a" kind="function"><name>ux</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a0c13fb4398047b332bd53c9b1f76da0d" kind="function"><name>uy</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a57ee20a7b50b2aec62a1771cfba3f29e" kind="function"><name>bx</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a77ba59770a943593aabc898c6b118c6d" kind="function"><name>DrawRasterLinesX</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a1b7c1ac3293369333ea7bf2805c30fb1" kind="function"><name>DrawRasterLinesY</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a9fba0ac4f8841403c56bef564cc9df4b" kind="function"><name>DrawStripesX</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a3a5651d6be66467978f934e0fb1d2bc6" kind="function"><name>DrawStripesY</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a1e68d447e46efecf71e966b5454d566b" kind="function"><name>GenerateRaster</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1abc326d211e7f0db50030aa10da34f7c6" kind="function"><name>breaktest</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1afa5a695eddcf14419f05550db3ac39a9" kind="function"><name>FirstPassCollectData</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a1cae8212be4054f6d29f62e4aa9458a9" kind="function"><name>FirstPassTransformData</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a7eadb31fe9951b8255856efe7d6091b7" kind="function"><name>ColorData</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1ae75f58903a5b689b7e5114ad58954854" kind="function"><name>r</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a6a5949204a3c4c0b2ab7d13f337f0480" kind="function"><name>Im</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a22345f110c99f6375191103bab9db58e" kind="function"><name>ContCollectData</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a67469273613447f107e23f07407b9e30" kind="function"><name>ContTransformData</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1a1074301b7f6328da78d6d9db41fb141e" kind="function"><name>__declspec</name></member>
+    <member refid="_dll___osc__v7_2dllmain_8cpp_1aabecc373cfd2034ba704891246947291" kind="function"><name>glfwSetWindowPos</name></member>
+  </compound>
+  <compound refid="_dll___osc__v6_2framework_8h" kind="file"><name>framework.h</name>
+    <member refid="_dll___osc__v6_2framework_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" kind="define"><name>WIN32_LEAN_AND_MEAN</name></member>
+  </compound>
+  <compound refid="_dll___osc__v7_2framework_8h" kind="file"><name>framework.h</name>
+    <member refid="_dll___osc__v7_2framework_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" kind="define"><name>WIN32_LEAN_AND_MEAN</name></member>
+  </compound>
+  <compound refid="_dll___osc__v6_2pch_8cpp" kind="file"><name>pch.cpp</name>
+  </compound>
+  <compound refid="_dll___osc__v7_2pch_8cpp" kind="file"><name>pch.cpp</name>
+  </compound>
+  <compound refid="_dll___osc__v6_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="_dll___osc__v7_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="shader_8cpp" kind="file"><name>shader.cpp</name>
+    <member refid="shader_8cpp_1a833f10cca6a76fe34ae9efa23ac5e73c" kind="function"><name>LoadShaders</name></member>
+  </compound>
+  <compound refid="_source_8cpp" kind="file"><name>Source.cpp</name>
+    <member refid="_source_8cpp_1a833f10cca6a76fe34ae9efa23ac5e73c" kind="function"><name>LoadShaders</name></member>
+  </compound>
+  <compound refid="_form1_8cs" kind="file"><name>Form1.cs</name>
+  </compound>
+  <compound refid="_form1_8_designer_8cs" kind="file"><name>Form1.Designer.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="dir_c6a3bf89e717432707592fd5abebba7b" kind="dir"><name>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6</name>
+  </compound>
+  <compound refid="dir_0f6955340c9f2b896f9b416b037a128f" kind="dir"><name>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v7</name>
+  </compound>
+  <compound refid="dir_832300449b6e549fca9b44a51dce495a" kind="dir"><name>C:/Users/Gebruiker</name>
+  </compound>
+  <compound refid="dir_ca290d8a078d31c75d9b271cb0df8f00" kind="dir"><name>C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5</name>
+  </compound>
+  <compound refid="dir_52d2f4d79a3248021b8dd02e227afd22" kind="dir"><name>C:/Users/Gebruiker/source/repos/Osc_v5</name>
+  </compound>
+  <compound refid="dir_12fab3dff9b785fc06a13e5318726fae" kind="dir"><name>C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties</name>
+  </compound>
+  <compound refid="dir_4cdde24165e6c9fdef03e9a683476f1c" kind="dir"><name>C:/Users/Gebruiker/source/repos</name>
+  </compound>
+  <compound refid="dir_2f6565de32596adc30ca48dcffadbcd8" kind="dir"><name>C:/Users/Gebruiker/source</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

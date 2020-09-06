@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_osc__v5_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Osc_v5::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_osc__v5_1_1_properties_1_1_settings_1a6ed3a88e6dc0e1e7f87ab47a250499f9" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_osc__v5_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Osc_v5.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_osc__v5_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_osc__v5_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_osc__v5_1_1_properties_1_1_settings_1ae9a13b4a11fe0e4bc16a06e10a9ea23e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_osc__v5_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Osc_v5.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties/Settings.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>Osc_v5.Properties.Settings</label>
+        <link refid="class_osc__v5_1_1_properties_1_1_settings"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>Osc_v5.Properties.Settings</label>
+        <link refid="class_osc__v5_1_1_properties_1_1_settings"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_osc__v5_1_1_properties_1_1_settings_1ae9a13b4a11fe0e4bc16a06e10a9ea23e" prot="public" virt="non-virtual"><scope>Osc_v5::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_osc__v5_1_1_properties_1_1_settings_1a6ed3a88e6dc0e1e7f87ab47a250499f9" prot="private" virt="non-virtual"><scope>Osc_v5::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

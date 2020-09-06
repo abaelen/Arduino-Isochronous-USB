@@ -1,0 +1,2 @@
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\x64\Debug\USBApplication1.exe.lastcodeanalysissucceeded
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\x64\Debug\NativeCodeAnalysis.read.1.tlog

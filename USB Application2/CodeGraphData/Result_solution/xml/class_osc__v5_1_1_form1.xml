@@ -1,0 +1,630 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_osc__v5_1_1_form1" kind="class" prot="public">
+    <compoundname>Osc_v5::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+    <innerclass refid="class_osc__v5_1_1_form1_1_1_number" prot="private">Osc_v5::Form1::Number</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a1a7e118349f62d99d326d4d36522b93e" prot="private" static="no" mutable="no">
+        <type>Label[]</type>
+        <definition>Label [] Osc_v5.Form1.Lbl_V_Axis</definition>
+        <argsstring></argsstring>
+        <name>Lbl_V_Axis</name>
+        <initializer>= new System.Windows.Forms.Label[11]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="58" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1a4375d6066167d28b10ee6b769c024fff" compoundref="_form1_8_designer_8cs" startline="84" endline="148">Osc_v5.Form1.U_InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1ac3704727472b1c92efb713174e813035" prot="private" static="no" mutable="no">
+        <type>Label[]</type>
+        <definition>Label [] Osc_v5.Form1.Lbl_T_Axis</definition>
+        <argsstring></argsstring>
+        <name>Lbl_T_Axis</name>
+        <initializer>= new System.Windows.Forms.Label[11]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="59" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1aca65c330a63548520a40b015ce84077e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>[]</type>
+        <definition>Number [] Osc_v5.Form1.V_axis</definition>
+        <argsstring></argsstring>
+        <name>V_axis</name>
+        <initializer>= new <ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>[11]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="61" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1a54aa39612f8c6d11fe69372a01e682d9" compoundref="_form1_8cs" startline="128" endline="137">Osc_v5.Form1.comboBox1_SelectedValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1aec4b439b6cf86ddcdf64e9aeddccee51" prot="private" static="no" mutable="no">
+        <type><ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>[]</type>
+        <definition>Number [] Osc_v5.Form1.T_axis</definition>
+        <argsstring></argsstring>
+        <name>T_axis</name>
+        <initializer>= new <ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>[11]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="62" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1a78594267f06879c34c5adb2f82d755f2" compoundref="_form1_8cs" startline="138" endline="147">Osc_v5.Form1.comboBox2_SelectedValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1ae9e8f4564d5030b07d4f9bf3b5624e5f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref></type>
+        <definition>Number Osc_v5.Form1.zeroVoltPoint</definition>
+        <argsstring></argsstring>
+        <name>zeroVoltPoint</name>
+        <initializer>= new <ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="63" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a85703e186c10ed9e6214a50cef7e3fb2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref></type>
+        <definition>Number Osc_v5.Form1.VoltDiv</definition>
+        <argsstring></argsstring>
+        <name>VoltDiv</name>
+        <initializer>= new <ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="64" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a9e1d0c2caee234800aa507342b5e37be" prot="private" static="no" mutable="no">
+        <type><ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref></type>
+        <definition>Number Osc_v5.Form1.TimeDiv</definition>
+        <argsstring></argsstring>
+        <name>TimeDiv</name>
+        <initializer>= new <ref refid="class_osc__v5_1_1_form1_1_1_number" kindref="compound">Number</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="65" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1ab7c8472119e245e7239098ed3520cb3e" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Osc_v5.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="67" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1ae5055679d509f1305f0f36ba4e5237f6" compoundref="_form1_8_designer_8cs" startline="74" endline="82">Osc_v5.Form1.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1af6ef93dd0d72061509b1b5bd0c084cd0" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Osc_v5.Form1.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="329" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a3d1522e503953290cf4716da2f8241c0" prot="private" static="no" mutable="no">
+        <type>TrackBar</type>
+        <definition>TrackBar Osc_v5.Form1.trackBar1</definition>
+        <argsstring></argsstring>
+        <name>trackBar1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="330" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="330" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1ae5efe21b0114f8ffd4898973c63f70da" compoundref="_form1_8_designer_8cs" startline="157" endline="326">Osc_v5.Form1.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1af008f90c2dba5006ae15100cb6a91d87" prot="private" static="no" mutable="no">
+        <type>Panel</type>
+        <definition>Panel Osc_v5.Form1.panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="331" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a2ad7595e2b52664b2fc21db03f21d0e5" prot="private" static="no" mutable="no">
+        <type>Panel</type>
+        <definition>Panel Osc_v5.Form1.panel2</definition>
+        <argsstring></argsstring>
+        <name>panel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="332" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a487fc87b88b52efbbaaf6de371693607" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Osc_v5.Form1.button6</definition>
+        <argsstring></argsstring>
+        <name>button6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="333" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a55eb02f3e3692c15cf030e7c374b9a20" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Osc_v5.Form1.button7</definition>
+        <argsstring></argsstring>
+        <name>button7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="334" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a25f2364ce3a6934699b2e8c30c75f063" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Osc_v5.Form1.button5</definition>
+        <argsstring></argsstring>
+        <name>button5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="335" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1ac51c3fa39dd68de897074bff0048d7a9" prot="private" static="no" mutable="no">
+        <type>ComboBox</type>
+        <definition>ComboBox Osc_v5.Form1.comboBox1</definition>
+        <argsstring></argsstring>
+        <name>comboBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="336" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1ad6ba1fe19623dc04b0f17c4cd8bf1546" prot="private" static="no" mutable="no">
+        <type>TextBox</type>
+        <definition>TextBox Osc_v5.Form1.textBox1</definition>
+        <argsstring></argsstring>
+        <name>textBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="337" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="337" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1a26f0413154dba34b0b200ce15e77b9e6" compoundref="_form1_8cs" startline="72" endline="120">Osc_v5.Form1.textBox1_KeyPress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1a484f63d8569fc81856bb26428974a8e3" prot="private" static="no" mutable="no">
+        <type>ComboBox</type>
+        <definition>ComboBox Osc_v5.Form1.comboBox2</definition>
+        <argsstring></argsstring>
+        <name>comboBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="338" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Osc_v5.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="15" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="15" bodyend="21"/>
+        <references refid="class_osc__v5_1_1_form1_1a6a3705d1f330ce313f418530c399f2be" compoundref="_form1_8cs" startline="23" endline="26">Osc_v5.Form1.Form1_Move</references>
+        <references refid="class_osc__v5_1_1_form1_1ac2783e6bfc8fc0cceb3a7292f6eb886c" compoundref="_form1_8cs" startline="37" endline="41">Osc_v5.Form1.Form1_Shown</references>
+        <references refid="class_osc__v5_1_1_form1_1ae5efe21b0114f8ffd4898973c63f70da" compoundref="_form1_8_designer_8cs" startline="157" endline="326">Osc_v5.Form1.InitializeComponent</references>
+        <references refid="class_osc__v5_1_1_form1_1a4375d6066167d28b10ee6b769c024fff" compoundref="_form1_8_designer_8cs" startline="84" endline="148">Osc_v5.Form1.U_InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a6a3705d1f330ce313f418530c399f2be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.Form1_Move</definition>
+        <argsstring>(Object sender, EventArgs e)</argsstring>
+        <name>Form1_Move</name>
+        <param>
+          <type>Object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="23" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="23" bodyend="26"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" compoundref="_form1_8cs" startline="15" endline="21">Osc_v5.Form1.Form1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a17c8bec3a176898f0c7bba55e6f8127c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.button6_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button6_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="28" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1ac2783e6bfc8fc0cceb3a7292f6eb886c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.Form1_Shown</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form1_Shown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="37" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="37" bodyend="41"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" compoundref="_form1_8cs" startline="15" endline="21">Osc_v5.Form1.Form1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1ad10326057259ff0d8078cec46b5e2b5c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.MidLbl_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>MidLbl_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="43" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a4ee6d2324d9b201e2d147f7d5ee148f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.button7_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button7_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="48" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="48" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a99fb4463849ba0fb1425866c58d6df1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.button5_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button5_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="59" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="59" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a26f0413154dba34b0b200ce15e77b9e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.textBox1_KeyPress</definition>
+        <argsstring>(object sender, KeyPressEventArgs e)</argsstring>
+        <name>textBox1_KeyPress</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyPressEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="72" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="72" bodyend="120"/>
+        <references refid="class_osc__v5_1_1_form1_1ad6ba1fe19623dc04b0f17c4cd8bf1546" compoundref="_form1_8_designer_8cs" startline="337">Osc_v5.Form1.textBox1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a8e40f8bdaa801483741908ef81959e9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.textBox1_PreviewKeyDown</definition>
+        <argsstring>(object sender, PreviewKeyDownEventArgs e)</argsstring>
+        <name>textBox1_PreviewKeyDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PreviewKeyDownEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="122" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="122" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a54aa39612f8c6d11fe69372a01e682d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.comboBox1_SelectedValueChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>comboBox1_SelectedValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="128" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="128" bodyend="137"/>
+        <references refid="class_osc__v5_1_1_form1_1aca65c330a63548520a40b015ce84077e" compoundref="_form1_8_designer_8cs" startline="61">Osc_v5.Form1.V_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a78594267f06879c34c5adb2f82d755f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.comboBox2_SelectedValueChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>comboBox2_SelectedValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="138" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="138" bodyend="147"/>
+        <references refid="class_osc__v5_1_1_form1_1aec4b439b6cf86ddcdf64e9aeddccee51" compoundref="_form1_8_designer_8cs" startline="62">Osc_v5.Form1.T_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1a4375d6066167d28b10ee6b769c024fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.U_InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>U_InitializeComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="84" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="84" bodyend="148"/>
+        <references refid="class_osc__v5_1_1_form1_1a1a7e118349f62d99d326d4d36522b93e" compoundref="_form1_8_designer_8cs" startline="58">Osc_v5.Form1.Lbl_V_Axis</references>
+        <referencedby refid="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" compoundref="_form1_8cs" startline="15" endline="21">Osc_v5.Form1.Form1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1ae5efe21b0114f8ffd4898973c63f70da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Osc_v5.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="157" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="157" bodyend="326"/>
+        <references refid="class_osc__v5_1_1_form1_1a3d1522e503953290cf4716da2f8241c0" compoundref="_form1_8_designer_8cs" startline="330">Osc_v5.Form1.trackBar1</references>
+        <referencedby refid="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" compoundref="_form1_8cs" startline="15" endline="21">Osc_v5.Form1.Form1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1ae5055679d509f1305f0f36ba4e5237f6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Osc_v5.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="74" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="74" bodyend="82"/>
+        <references refid="class_osc__v5_1_1_form1_1ab7c8472119e245e7239098ed3520cb3e" compoundref="_form1_8_designer_8cs" startline="67">Osc_v5.Form1.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Osc_v5.Form1</label>
+        <link refid="class_osc__v5_1_1_form1"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Osc_v5.Form1</label>
+        <link refid="class_osc__v5_1_1_form1"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>TimeDiv</edgelabel>
+          <edgelabel>V_axis</edgelabel>
+          <edgelabel>zeroVoltPoint</edgelabel>
+          <edgelabel>T_axis</edgelabel>
+          <edgelabel>VoltDiv</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>components</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Form</label>
+      </node>
+      <node id="4">
+        <label>Osc_v5.Form1.Number</label>
+        <link refid="class_osc__v5_1_1_form1_1_1_number"/>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="14" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" bodystart="13" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_osc__v5_1_1_form1_1af6ef93dd0d72061509b1b5bd0c084cd0" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button2</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a25f2364ce3a6934699b2e8c30c75f063" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button5</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a99fb4463849ba0fb1425866c58d6df1f" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button5_Click</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a487fc87b88b52efbbaaf6de371693607" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button6</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a17c8bec3a176898f0c7bba55e6f8127c" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button6_Click</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a55eb02f3e3692c15cf030e7c374b9a20" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button7</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a4ee6d2324d9b201e2d147f7d5ee148f5" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>button7_Click</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ac51c3fa39dd68de897074bff0048d7a9" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>comboBox1</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a54aa39612f8c6d11fe69372a01e682d9" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>comboBox1_SelectedValueChanged</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a484f63d8569fc81856bb26428974a8e3" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>comboBox2</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a78594267f06879c34c5adb2f82d755f2" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>comboBox2_SelectedValueChanged</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ab7c8472119e245e7239098ed3520cb3e" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>components</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ae5055679d509f1305f0f36ba4e5237f6" prot="protected" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>Dispose</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ac870e4aa99d8f91654f7ab87fea533a5" prot="public" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>Form1</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a6a3705d1f330ce313f418530c399f2be" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>Form1_Move</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ac2783e6bfc8fc0cceb3a7292f6eb886c" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>Form1_Shown</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ae5efe21b0114f8ffd4898973c63f70da" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ac3704727472b1c92efb713174e813035" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>Lbl_T_Axis</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a1a7e118349f62d99d326d4d36522b93e" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>Lbl_V_Axis</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ad10326057259ff0d8078cec46b5e2b5c" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>MidLbl_Click</name></member>
+      <member refid="class_osc__v5_1_1_form1_1af008f90c2dba5006ae15100cb6a91d87" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>panel1</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a2ad7595e2b52664b2fc21db03f21d0e5" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>panel2</name></member>
+      <member refid="class_osc__v5_1_1_form1_1aec4b439b6cf86ddcdf64e9aeddccee51" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>T_axis</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ad6ba1fe19623dc04b0f17c4cd8bf1546" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>textBox1</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a26f0413154dba34b0b200ce15e77b9e6" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>textBox1_KeyPress</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a8e40f8bdaa801483741908ef81959e9f" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>textBox1_PreviewKeyDown</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a9e1d0c2caee234800aa507342b5e37be" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>TimeDiv</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a3d1522e503953290cf4716da2f8241c0" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>trackBar1</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a4375d6066167d28b10ee6b769c024fff" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>U_InitializeComponent</name></member>
+      <member refid="class_osc__v5_1_1_form1_1aca65c330a63548520a40b015ce84077e" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>V_axis</name></member>
+      <member refid="class_osc__v5_1_1_form1_1a85703e186c10ed9e6214a50cef7e3fb2" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>VoltDiv</name></member>
+      <member refid="class_osc__v5_1_1_form1_1ae9e8f4564d5030b07d4f9bf3b5624e5f" prot="private" virt="non-virtual"><scope>Osc_v5::Form1</scope><name>zeroVoltPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

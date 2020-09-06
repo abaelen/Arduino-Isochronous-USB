@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_osc__v5" kind="namespace">
+    <compoundname>Osc_v5</compoundname>
+    <innerclass refid="class_osc__v5_1_1_form1" prot="public">Osc_v5::Form1</innerclass>
+    <innerclass refid="class_osc__v5_1_1_program" prot="public">Osc_v5::Program</innerclass>
+    <innernamespace refid="namespace_osc__v5_1_1_properties">Osc_v5::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

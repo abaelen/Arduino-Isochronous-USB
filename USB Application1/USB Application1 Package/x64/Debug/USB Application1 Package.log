@@ -1,6 +1,6 @@
 ﻿  Building 'USB Application1 Package' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
   Stamping x64\Debug\MyDriver.inf
-  Stamping [Version] section with DriverVer=04/26/2020,3.44.37.427
+  Stamping [Version] section with DriverVer=04/27/2020,23.31.47.117
   ........................
   Signability test complete.
   
@@ -11,7 +11,7 @@
   None
   
   Catalog generation complete.
-  C:\Users\Gebruiker\source\repos\USB Application1\x64\Debug\USB Application1 Package\mydriver.cat
+  C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\x64\Debug\USB Application1 Package\mydriver.cat
   Done Adding Additional Store
-  Successfully signed: C:\Users\Gebruiker\source\repos\USB Application1\x64\Debug\USB Application1 Package\mydriver.cat
+  Successfully signed: C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\x64\Debug\USB Application1 Package\mydriver.cat
   

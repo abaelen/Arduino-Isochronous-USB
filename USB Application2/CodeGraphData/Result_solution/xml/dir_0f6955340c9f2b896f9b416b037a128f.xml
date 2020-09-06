@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0f6955340c9f2b896f9b416b037a128f" kind="dir">
+    <compoundname>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v7</compoundname>
+    <innerfile refid="_dll___osc__v7_2dllmain_8cpp">dllmain.cpp</innerfile>
+    <innerfile refid="_dll___osc__v7_2framework_8h">framework.h</innerfile>
+    <innerfile refid="_dll___osc__v7_2pch_8cpp">pch.cpp</innerfile>
+    <innerfile refid="_dll___osc__v7_2pch_8h">pch.h</innerfile>
+    <innerfile refid="_source_8cpp">Source.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v7/"/>
+  </compounddef>
+</doxygen>

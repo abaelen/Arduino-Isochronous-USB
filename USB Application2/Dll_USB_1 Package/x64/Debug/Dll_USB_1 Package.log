@@ -1,0 +1,12 @@
+﻿  Building 'Dll_USB_1 Package' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\MyDriver.inf
+  Stamping [Version] section with DriverVer=04/28/2020,0.5.32.825
+  ........................
+  Signability test failed.
+  
+  Errors:
+  22.9.7: DriverVer set to a date in the future (postdated DriverVer not allowed) in Dll_USB_1 Package\mydriver.inf.
+  
+  Warnings:
+  None
+x64\Debug\inf2catOutput.log : Inf2Cat error -2: "Inf2Cat, signability test failed." Double click to see the tool output.

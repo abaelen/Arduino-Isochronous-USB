@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_dll___osc__v6_2framework_8h" kind="file">
+    <compoundname>framework.h</compoundname>
+    <includes local="no">windows.h</includes>
+    <includedby refid="_dll___osc__v6_2pch_8h" local="yes">C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/pch.h</includedby>
+    <incdepgraph>
+      <node id="137">
+        <label>windows.h</label>
+      </node>
+      <node id="136">
+        <label>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/framework.h</label>
+        <link refid="Dll_Osc_v6/framework.h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="139">
+        <label>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/pch.h</label>
+        <link refid="_dll___osc__v6_2pch_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/pch.cpp</label>
+        <link refid="_dll___osc__v6_2pch_8cpp"/>
+      </node>
+      <node id="138">
+        <label>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/framework.h</label>
+        <link refid="Dll_Osc_v6/framework.h"/>
+        <childnode refid="139" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/shader.cpp</label>
+        <link refid="shader_8cpp"/>
+      </node>
+      <node id="140">
+        <label>C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp</label>
+        <link refid="_dll___osc__v6_2dllmain_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_dll___osc__v6_2framework_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" prot="public" static="no">
+        <name>WIN32_LEAN_AND_MEAN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/framework.h" line="3" column="9" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/framework.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="_dll___osc__v6_2framework_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WIN32_LEAN_AND_MEAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Exclude<sp/>rarely-used<sp/>stuff<sp/>from<sp/>Windows<sp/>headers</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>Windows<sp/>Header<sp/>Files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/framework.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_reading" kind="class" prot="public">
+    <compoundname>Reading</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_reading_1a3921aac46a6fa03f8535fa3fdf9eac55" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t Reading::ADC_Reading</definition>
+        <argsstring></argsstring>
+        <name>ADC_Reading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="84" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="84" bodyend="-1"/>
+        <referencedby refid="dllmain_8cpp_1a22345f110c99f6375191103bab9db58e" compoundref="dllmain_8cpp" startline="306" endline="323">ContCollectData</referencedby>
+        <referencedby refid="dllmain_8cpp_1a67469273613447f107e23f07407b9e30" compoundref="dllmain_8cpp" startline="343" endline="414">ContTransformData</referencedby>
+        <referencedby refid="dllmain_8cpp_1afa5a695eddcf14419f05550db3ac39a9" compoundref="dllmain_8cpp" startline="212" endline="227">FirstPassCollectData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_reading_1a836d2c407bc021b120bd834b0435debb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Reading::ADC_Tick</definition>
+        <argsstring></argsstring>
+        <name>ADC_Tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="85" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="85" bodyend="-1"/>
+        <referencedby refid="dllmain_8cpp_1a22345f110c99f6375191103bab9db58e" compoundref="dllmain_8cpp" startline="306" endline="323">ContCollectData</referencedby>
+        <referencedby refid="dllmain_8cpp_1a67469273613447f107e23f07407b9e30" compoundref="dllmain_8cpp" startline="343" endline="414">ContTransformData</referencedby>
+        <referencedby refid="dllmain_8cpp_1afa5a695eddcf14419f05550db3ac39a9" compoundref="dllmain_8cpp" startline="212" endline="227">FirstPassCollectData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reading_1af08a4b8dea785ef68987cc952d4837fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gVolt</definition>
+        <argsstring>(uint16_t ADC_res, uint16_t ADC_Vref)</argsstring>
+        <name>gVolt</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_res</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_Vref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="86" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="86" bodyend="88"/>
+        <references refid="dllmain_8cpp_1a6d40728e3ec1b522284c9ea5b96a1000" compoundref="dllmain_8cpp" startline="36">ADC_Vref</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1ac7fb682f36d3afa17a0937fb550caaf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gTime</definition>
+        <argsstring>(uint32_t ADC_freq)</argsstring>
+        <name>gTime</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ADC_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="89" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="89" bodyend="91"/>
+        <referencedby refid="dllmain_8cpp_1a67469273613447f107e23f07407b9e30" compoundref="dllmain_8cpp" startline="343" endline="414">ContTransformData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1a048c88af32fe0818bcbbdbc48c9fc2a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gVolt_UpperBound</definition>
+        <argsstring>(uint16_t ADC_res, uint16_t ADC_Vref)</argsstring>
+        <name>gVolt_UpperBound</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_res</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_Vref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="92" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="92" bodyend="94"/>
+        <references refid="dllmain_8cpp_1a0c4ca28359bdb0e77781896263a84d91" compoundref="dllmain_8cpp" startline="36">ADC_res</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1aa316c1b93daf3d39e160cabde0c72be7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gVolt_LowerBound</definition>
+        <argsstring>(uint16_t ADC_res, uint16_t ADC_Vref)</argsstring>
+        <name>gVolt_LowerBound</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_res</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_Vref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="95" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="95" bodyend="97"/>
+        <references refid="dllmain_8cpp_1a0c4ca28359bdb0e77781896263a84d91" compoundref="dllmain_8cpp" startline="36">ADC_res</references>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1a80ad5fe558bf7711ea0ca8f37ce4428f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gfVScreen</definition>
+        <argsstring>(float Volt, uint16_t ADC_res, uint16_t ADC_Vref, uint16_t zeroV, uint16_t VoltDiv, uint16_t VScale)</argsstring>
+        <name>gfVScreen</name>
+        <param>
+          <type>float</type>
+          <declname>Volt</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_res</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>ADC_Vref</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>zeroV</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>VoltDiv</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>VScale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="98" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="98" bodyend="102"/>
+        <referencedby refid="dllmain_8cpp_1a1cae8212be4054f6d29f62e4aa9458a9" compoundref="dllmain_8cpp" startline="231" endline="264">FirstPassTransformData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1a0bfb12b1770e4434f44ca843e29cc166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gfTScreen</definition>
+        <argsstring>(float Time, float TimeDiv, uint16_t TScale, float ZeroTime)</argsstring>
+        <name>gfTScreen</name>
+        <param>
+          <type>float</type>
+          <declname>Time</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>TimeDiv</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>TScale</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ZeroTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="103" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1a8e10d54a1c58882b9ed49b267ac0ae75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t Reading::gTick</definition>
+        <argsstring>(uint32_t ADC_freq, float Time)</argsstring>
+        <name>gTick</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ADC_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="106" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reading_1a9b33ebbd4009751adfe30d4da03286e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Reading::gfTScreenFromTick</definition>
+        <argsstring>(uint32_t ADC_freq, float TimeDiv, uint16_t TScale, uint32_t ZeroTick)</argsstring>
+        <name>gfTScreenFromTick</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ADC_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>TimeDiv</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>TScale</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ZeroTick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="109" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="109" bodyend="111"/>
+        <references refid="dllmain_8cpp_1a288f2c9101675a37d31e7923b96fa219" compoundref="dllmain_8cpp" startline="36">TScale</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" line="82" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Dll_Osc_v6/dllmain.cpp" bodystart="82" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_reading_1a3921aac46a6fa03f8535fa3fdf9eac55" prot="public" virt="non-virtual"><scope>Reading</scope><name>ADC_Reading</name></member>
+      <member refid="class_reading_1a836d2c407bc021b120bd834b0435debb" prot="public" virt="non-virtual"><scope>Reading</scope><name>ADC_Tick</name></member>
+      <member refid="class_reading_1a0bfb12b1770e4434f44ca843e29cc166" prot="public" virt="non-virtual"><scope>Reading</scope><name>gfTScreen</name></member>
+      <member refid="class_reading_1a9b33ebbd4009751adfe30d4da03286e1" prot="public" virt="non-virtual"><scope>Reading</scope><name>gfTScreenFromTick</name></member>
+      <member refid="class_reading_1a80ad5fe558bf7711ea0ca8f37ce4428f" prot="public" virt="non-virtual"><scope>Reading</scope><name>gfVScreen</name></member>
+      <member refid="class_reading_1a8e10d54a1c58882b9ed49b267ac0ae75" prot="public" virt="non-virtual"><scope>Reading</scope><name>gTick</name></member>
+      <member refid="class_reading_1ac7fb682f36d3afa17a0937fb550caaf8" prot="public" virt="non-virtual"><scope>Reading</scope><name>gTime</name></member>
+      <member refid="class_reading_1af08a4b8dea785ef68987cc952d4837fb" prot="public" virt="non-virtual"><scope>Reading</scope><name>gVolt</name></member>
+      <member refid="class_reading_1aa316c1b93daf3d39e160cabde0c72be7" prot="public" virt="non-virtual"><scope>Reading</scope><name>gVolt_LowerBound</name></member>
+      <member refid="class_reading_1a048c88af32fe0818bcbbdbc48c9fc2a4" prot="public" virt="non-virtual"><scope>Reading</scope><name>gVolt_UpperBound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

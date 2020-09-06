@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ca290d8a078d31c75d9b271cb0df8f00" kind="dir">
+    <compoundname>C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5</compoundname>
+    <innerdir refid="dir_12fab3dff9b785fc06a13e5318726fae">C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Properties</innerdir>
+    <innerfile refid="_form1_8cs">Form1.cs</innerfile>
+    <innerfile refid="_form1_8_designer_8cs">Form1.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/"/>
+  </compounddef>
+</doxygen>

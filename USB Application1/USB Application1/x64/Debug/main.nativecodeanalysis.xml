@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>275</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'overlapped'. </DESCRIPTION>
+    <FUNCTION>SendIsochInTransfer</FUNCTION>
+    <DECORATED>?SendIsochInTransfer@@YAXPEAU_DEVICE_DATA@@H@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>99</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'overlapped' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>61</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'readBuffer!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'isochPackets!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;10000')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'overlapped[i].hEvent!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'overlapped' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,6 +1,8 @@
 ﻿  Building 'USB Application1' with toolset 'WindowsApplicationForDrivers10.0' and the 'Universal' target platform.
   device.cpp
   main.cpp
+  Compiling...
   Generating Code...
   USB Application1.vcxproj -> C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\x64\Debug\USBApplication1.exe
   Driver is a Universal Driver.
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\Arduino-Isochronous-USB\USB Application1\USB Application1\main.cpp(275): warning C6011: Dereferencing NULL pointer 'overlapped'. 

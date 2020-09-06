@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_osc__v5_1_1_form1_1_1_number" kind="class" prot="private">
+    <compoundname>Osc_v5::Form1::Number</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_osc__v5_1_1_form1_1_1_number_1a1541335c1006636f00f8e10ca848be63" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Osc_v5.Form1.Number.fNumber</definition>
+        <argsstring></argsstring>
+        <name>fNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="18" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_osc__v5_1_1_form1_1_1_number_1a04c4a3b4d640be5c4818c38bad7683e9" compoundref="_form1_8_designer_8cs" startline="19" endline="29">Osc_v5.Form1.Number.gStr</referencedby>
+        <referencedby refid="class_osc__v5_1_1_form1_1_1_number_1ab42da13a690f5747ff8426779b9ee87c" compoundref="_form1_8_designer_8cs" startline="30" endline="33">Osc_v5.Form1.Number.Number</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1_1_number_1a04c4a3b4d640be5c4818c38bad7683e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Osc_v5.Form1.Number.gStr</definition>
+        <argsstring>(string Dim)</argsstring>
+        <name>gStr</name>
+        <param>
+          <type>string</type>
+          <declname>Dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="19" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="19" bodyend="29"/>
+        <references refid="class_osc__v5_1_1_form1_1_1_number_1a1541335c1006636f00f8e10ca848be63" compoundref="_form1_8_designer_8cs" startline="18">Osc_v5.Form1.Number.fNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1_1_number_1ab42da13a690f5747ff8426779b9ee87c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Osc_v5.Form1.Number.Number</definition>
+        <argsstring>()</argsstring>
+        <name>Number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="30" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_osc__v5_1_1_form1_1_1_number_1a1541335c1006636f00f8e10ca848be63" compoundref="_form1_8_designer_8cs" startline="18">Osc_v5.Form1.Number.fNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_osc__v5_1_1_form1_1_1_number_1a5125f01138c551559983b528a5406097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Osc_v5.Form1.Number.gFlt</definition>
+        <argsstring>(string Str)</argsstring>
+        <name>gFlt</name>
+        <param>
+          <type>string</type>
+          <declname>Str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="34" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="34" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Required designer variable. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="17" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="16" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_osc__v5_1_1_form1_1_1_number_1a1541335c1006636f00f8e10ca848be63" prot="public" virt="non-virtual"><scope>Osc_v5::Form1::Number</scope><name>fNumber</name></member>
+      <member refid="class_osc__v5_1_1_form1_1_1_number_1a5125f01138c551559983b528a5406097" prot="public" virt="non-virtual"><scope>Osc_v5::Form1::Number</scope><name>gFlt</name></member>
+      <member refid="class_osc__v5_1_1_form1_1_1_number_1a04c4a3b4d640be5c4818c38bad7683e9" prot="public" virt="non-virtual"><scope>Osc_v5::Form1::Number</scope><name>gStr</name></member>
+      <member refid="class_osc__v5_1_1_form1_1_1_number_1ab42da13a690f5747ff8426779b9ee87c" prot="public" virt="non-virtual"><scope>Osc_v5::Form1::Number</scope><name>Number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

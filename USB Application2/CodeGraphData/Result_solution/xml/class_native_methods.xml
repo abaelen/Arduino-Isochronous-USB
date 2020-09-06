@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_native_methods" kind="class" prot="package">
+    <compoundname>NativeMethods</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_native_methods_1a6f4d68d182d3efd06e88611a5b989c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NativeMethods.OGL_Window_Init</definition>
+        <argsstring>()</argsstring>
+        <name>OGL_Window_Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="345" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_native_methods_1a213fce059d1ba0b6aa8f891dcd6cb1e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NativeMethods.OGL_Window_Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>OGL_Window_Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_native_methods_1a379c61e46a286f47160f81c6202591c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NativeMethods.OGL_Window_SetPos</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>OGL_Window_SetPos</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="349" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" line="343" column="1" bodyfile="C:/Users/Gebruiker/source/repos/Osc_v5/Osc_v5/Form1.Designer.cs" bodystart="342" bodyend="350"/>
+    <listofallmembers>
+      <member refid="class_native_methods_1a213fce059d1ba0b6aa8f891dcd6cb1e9" prot="public" virt="non-virtual"><scope>NativeMethods</scope><name>OGL_Window_Dispose</name></member>
+      <member refid="class_native_methods_1a6f4d68d182d3efd06e88611a5b989c19" prot="public" virt="non-virtual"><scope>NativeMethods</scope><name>OGL_Window_Init</name></member>
+      <member refid="class_native_methods_1a379c61e46a286f47160f81c6202591c1" prot="public" virt="non-virtual"><scope>NativeMethods</scope><name>OGL_Window_SetPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
