@@ -35,19 +35,37 @@ On WinUSB api for windows receiving end:
 				https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/getting-set-up-to-use-windows-devices-usb
    
 Further detail around some tests I did comparing the BULK, ie. standard data transfer using Serial.print and Isochronous datatransfer.
-      Test description:
-                Run iterative ADC reads for 5 seconds (using RTC clock).
-                Keep number of iterations made = Test result
-                Write ADC read to Serial.print in 
-                    package of 2 bytes (serial.print)
-                    package of 52 bytes (serial.print)
-                    package of 1023 bytes (isochronous)
-                    no writing
-                Test results:
-                        2 bytes: 33 000 iterations
-                        52 bytes: 30 000 iterations
-                        1023 bytes: 1 293 000 iterations
-                        no writing: 1 318 000 iterations
+1. Test description:
+   -Run iterative ADC reads for 5 seconds (using RTC clock).
+  
+    Keep number of iterations made = Test result  
+    Write ADC read to Serial.print in:
+    
+       package of 2 bytes (serial.print)
+    
+       package of 52 bytes (serial.print)
+    
+       package of 1023 bytes (isochronous)
+    
+       no writing
+   
+    Test results:
+   
+       2 bytes: 33 000 iterations
+    
+       52 bytes: 30 000 iterations
+    
+       1023 bytes: 1 293 000 iterations
+    
+       no writing: 1 318 000 iterations
+    
+This test would therefore indicate it is certainly worthwhile to consider Isochronous datatransfers, in time critical applications.
+
+What I did notice during my testing was that Windows will initialize an Isochronous datatransfer on an 8ms interval not faster.
+Doing the math, one could conclude it is not faster than a normal Bulk transfer (which transmits 52bytes on 0.2ms). However the overhead that the Bulk transfer imposes on the processor seems to completely offset this as shown by the tests above.
+
+Using Isochronous datatransfer, on the other hand, implies transmitting 1023bytes every 8ms, eg. 1x1023bytes/8ms or 2x1023/12ms or 3x1023/14ms, ....
+
 
 
 Hope it can inspire you,
