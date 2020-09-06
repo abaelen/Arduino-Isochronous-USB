@@ -38,14 +38,12 @@ Further detail around some tests I did comparing the BULK, ie. standard data tra
 1. Test description:
    -Run iterative ADC reads for 5 seconds (using RTC clock).
   
-   -Keep number of iterations made = Test result  
+    Keep number of iterations made = Test result  
     Write ADC read to Serial.print in:
+    
     -package of 2 bytes (serial.print)
-   
     -package of 52 bytes (serial.print)
-   
     -package of 1023 bytes (isochronous)
-   
     -no writing
    
     -Test results:
