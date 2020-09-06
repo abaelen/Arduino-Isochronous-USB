@@ -35,7 +35,7 @@ On WinUSB api for windows receiving end:
 				https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/getting-set-up-to-use-windows-devices-usb
    
 Further detail around some tests I did comparing the BULK, ie. standard data transfer using Serial.print and Isochronous datatransfer.
-- Test description:
+1. Test description:
   -Run iterative ADC reads for 5 seconds (using RTC clock).
   -Keep number of iterations made = Test result
   -Write ADC read to Serial.print in 
