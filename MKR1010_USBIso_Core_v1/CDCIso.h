@@ -37,7 +37,10 @@ public:
 	
 	uint8_t writebuffer[1023];
 	uint8_t lenwritebuffer;
-	uint8_t databuffer[1023];
+	__attribute__((__aligned__(4))) uint8_t databuffer[1023]; //__attribute__((__section__(".bss_hram0"))) 
+    /*SAMD21 datasheet p804: Bits 31:0 – ADDR[31:0]: Data Pointer Address Value
+    These bits define the data pointer address as an absolute word address in RAM.The two least significant bits must
+    be zero to ensure the start address is 32-bit aligned.*/
 		
 	uint32_t iso_pcksize;
 	uint8_t iso_pckcode;
